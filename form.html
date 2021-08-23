@@ -65,6 +65,39 @@
         <input id="nick" type="email" class="form-control input-style mb-2" placeholder="Insira um nome de perfil.">
         <p>Isso será exibido no seu perfil.</p>
       </div>
+
+      <div class="age mb-4">
+        <label for="birth" class="text-bold form-label">Qual a sua data de nascimento?</label>
+        <div id="birth">
+
+          <div class="left">
+            <label for="birth-day">Dia</label>
+            <input id="birth-day" type="number" placeholder="DD">
+          </div>
+
+          <div class="left">
+            <label for="birth-month">Mês</label>
+            <select name="month" id="birth-month"></select>
+          </div>
+
+          <div class="left">
+            <label for="birth-year">Ano</label>
+            <input type="number" id="birth-year" placeholder="AAAA">
+          </div>
+        </div>
+      </div>
+
+      <div class="left">
+        <label for="gender" class="text-bold form-label">Qual é o seu gênero?</label>
+        <div id="gender">
+          <input id="radio-masc" type="radio" value="masculino">
+          <label for="radio-masc">Masculino</label>
+          
+          <input id="radio-fem" type="radio" value="feminino">
+          <label for="radio-fem">Feminino</label>
+
+        </div>
+      </div>
     </section>
 
     <script src="script.js"></script>

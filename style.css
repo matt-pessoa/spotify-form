@@ -81,3 +81,7 @@ h1 {
 .link-primary {
   color: #117a37;
 }
+
+#birth {
+  display: flex;
+}
