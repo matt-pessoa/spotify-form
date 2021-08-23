@@ -1,4 +1,5 @@
 img {
+  margin: 0;
   width: 250px;
 }
 
@@ -7,19 +8,37 @@ h1 {
   font-size: 45px;
 }
 
+.container-mini {
+  max-width: 600px;
+  margin: auto;
+}
+
 #subscribe {
   flex-direction: column;
 }
 
 #subscribe-btn {
-  font-size: 25px;
+  font-size: 22px;
   border-radius: 500px;
   padding: 15px 50px;
-  /* width: 20%; */
 }
 
 .center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  line-height: 0.1em;
+}
+
+p span {
+  font-size: 22px;
+  color: rgb(127, 127, 127);
+  background: #fff;
+  padding: 0 30px;
 }
