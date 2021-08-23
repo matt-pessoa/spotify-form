@@ -44,8 +44,27 @@
 
     <!-- FORM SECTION -->
     <section id="form-subscribe" class="container left">
-      <label for="email" class="mb-2 text-bold" class="form-label">Qual o seu e-mail?</label>
-      <input id="email" type="email" class="form-control input-style" placeholder="Insira seu e-mail." required>
+      <div class="mb-4 email-1">
+        <label for="email" class="mb-2 text-bold form-label">Qual o seu e-mail?</label>
+        <input id="email" type="email" class="mb-2 form-control input-style" placeholder="Insira seu e-mail." required>
+        <a href="" class="link-primary">Usar número de telefone.</a>
+      </div>
+
+      <div class="mb-4 email-2">
+        <label for="email-confirm" class="mb-2 text-bold form-label">Confirme seu e-mail</label>
+        <input id="email-confirm" type="email" class="form-control input-style" placeholder="Insira o e-mail novamente.">
+      </div>
+
+      <div class="mb-4 ask-password">
+        <label for="password" class="mb-2 text-bold form-label">Crie uma senha</label>
+        <input id="password" type="password" class="form-control input-style" placeholder="Crie uma senha.">
+      </div>
+
+      <div class="mb-4 ask-nick left">
+        <label for="nick" class="mb-2 text-bold form-label">Como devemos chamar você?</label>
+        <input id="nick" type="email" class="form-control input-style mb-2" placeholder="Insira um nome de perfil.">
+        <p>Isso será exibido no seu perfil.</p>
+      </div>
     </section>
 
     <script src="script.js"></script>

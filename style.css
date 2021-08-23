@@ -37,14 +37,14 @@ h1 {
   align-items: center;
 }
 
-p {
+#divider p {
   width: 100%;
   text-align: center;
   border-bottom: 1px solid rgb(204, 204, 204);
   line-height: 0.1em;
 }
 
-p span {
+#divider p span {
   font-size: 22px;
   color: rgb(127, 127, 127);
   background: #fff;
@@ -76,4 +76,8 @@ p span {
 
 .input-style:hover {
   box-shadow: inset 0 0 0 2px #868686;
+}
+
+.link-primary {
+  color: #117a37;
 }
