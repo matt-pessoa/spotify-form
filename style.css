@@ -1,9 +1,10 @@
 img {
-  width: 300px;
+  width: 250px;
 }
 
 h1 {
   text-align: center;
+  font-size: 45px;
 }
 
 #subscribe {
@@ -11,9 +12,10 @@ h1 {
 }
 
 #subscribe-btn {
+  font-size: 25px;
   border-radius: 500px;
-  padding: 15px;
-  width: 18%;
+  padding: 15px 50px;
+  /* width: 20%; */
 }
 
 .center {
