@@ -1,0 +1,23 @@
+img {
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#subscribe {
+  flex-direction: column;
+}
+
+#subscribe-btn {
+  border-radius: 500px;
+  padding: 15px;
+  width: 18%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
