@@ -25,7 +25,7 @@ h1 {
   flex-direction: column;
 }
 
-#subscribe-btn {
+.subscribe-btn {
   font-size: 22px;
   border-radius: 500px;
   padding: 15px 50px;
@@ -93,4 +93,32 @@ h1 {
 
 #gender label {
   margin-left: 10px;
+}
+
+#checkboxes div {
+  display: flex;
+  align-items: baseline;
+}
+
+#checkboxes input {
+  margin-right: 20px;
+}
+
+.text-small {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-link {
+  color: rgb(29, 185, 84);
+  text-decoration: underline;
+}
+
+.subscribe-btn-bottom {
+  font-size: 22px;
+  border-radius: 500px;
+  padding: 20px 70px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(30, 215, 96, 1);
+  border: none;
 }

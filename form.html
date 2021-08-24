@@ -34,7 +34,7 @@
           <br>curtir.</br></strong
         >
       </h1>
-       <button id="subscribe-btn" class="btn btn-primary mb-5"><strong>Increva-se com o Facebook</strong></button>
+      <button class="btn btn-primary subscribe-btn mb-5"><strong>Increver-se com o Facebook</strong></button>
     </section>
 
     <!-- DIVIDER SECTION -->
@@ -87,19 +87,45 @@
         </div>
       </div>
 
-      <div class="left mb-5">
+      <div class="left mb-4">
         <label for="gender" class="text-bold form-label">Qual é o seu gênero?</label>
         <div id="gender">
-            <input id="radio-masc" name="radio" class="form-check-input" type="radio" value="masculino">
-            <label for="radio-masc" class="form-check-label">Masculino</label>
+          <input id="radio-masc" name="radio" class="form-check-input" type="radio" value="masculino">
+          <label for="radio-masc" class="form-check-label">Masculino</label>
 
-            <input id="radio-fem" name="radio" class="form-check-input" type="radio" value="feminino">
-            <label for="radio-fem" class="form-check-label">Feminino</label>
+          <input id="radio-fem" name="radio" class="form-check-input" type="radio" value="feminino">
+          <label for="radio-fem" class="form-check-label">Feminino</label>
 
-            <input id="radio-nb" name="radio" class="form-check-input" type="radio" value="nao-binario">
-            <label for="radio-nb" class="form-check-label">Não binário</label>
+          <input id="radio-nb" name="radio" class="form-check-input" type="radio" value="nao-binario">
+          <label for="radio-nb" class="form-check-label">Não binário</label>
         </div>
       </div>
+
+      <div id="checkboxes" class="left mb-4">
+        <div class="mb-4">
+          <input id="marketing" type="checkbox">
+          <label for="marketing">Não quero receber mensagens de marketing do Spotify</label>
+        </div>
+
+        <div class="mb-4">
+          <input id="dados" type="checkbox">
+          <label for="dados">Compartilhar meus dados cadastrais com os provedores de conteúdo do Spotify para fins de marketing.</label>
+        </div>
+
+        <div class="mb-4">
+          <input id="termos" type="checkbox">
+          <label for="termos">Eu concordo com os <span class="text-link">Termos e Condições de Uso do Spotify.</span></label>
+        </div>
+      </div>
+
+      <p class="text-small">
+        Para saber mais sobre como o Spotify coleta, utiliza, compartilha e protege seus dados pessoais, leia a <span class="text-link">Política de Privacidade do Spotify.</span></p>
+
+      <div class="center">
+        <button class="btn btn-primary subscribe-btn-bottom mb-4"><strong>Inscrever-se</strong></button>
+      </div>
+
+      <p class="text-small">Já tem uma conta? <span class="text-link">Faça login.</span></p>
     </section>
 
     <script src="script.js"></script>
