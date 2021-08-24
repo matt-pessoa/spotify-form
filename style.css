@@ -85,3 +85,12 @@ h1 {
 #birth {
   display: flex;
 }
+
+#radio-fem,
+#radio-nb {
+  margin-left: 30px;
+}
+
+#gender label {
+  margin-left: 10px;
+}
