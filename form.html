@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="bootstrap-5.1.0-dist/js/bootstrap.min.js" />
 
     <link rel="stylesheet" href="style.css" />
-    <script src="script.js"></script>
 
     <title>Increva-se - Spotify</title>
   </head>
@@ -35,13 +34,100 @@
           <br>curtir.</br></strong
         >
       </h1>
-       <button id="subscribe-btn" class="btn btn-primary mb-5"><strong>Increva-se com o Facebook</strong></button>
+      <button class="btn btn-primary subscribe-btn mb-5"><strong>Increver-se com o Facebook</strong></button>
     </section>
 
     <!-- DIVIDER SECTION -->
-    <section id="divider" class="container-mini center">
+    <section id="divider" class="container-mini center mb-3">
       <p><span>ou</span></p>
     </section>
 
+    <!-- FORM SECTION -->
+    <section id="form-subscribe" class="container left">
+      <div class="mb-4 email-1">
+        <label for="email" class="mb-2 text-bold form-label">Qual o seu e-mail?</label>
+        <input id="email" type="email" class="mb-2 form-control input-style" placeholder="Insira seu e-mail." required>
+        <a href="" class="link-primary">Usar número de telefone.</a>
+      </div>
+
+      <div class="mb-4 email-2">
+        <label for="email-confirm" class="mb-2 text-bold form-label">Confirme seu e-mail</label>
+        <input id="email-confirm" type="email" class="form-control input-style" placeholder="Insira o e-mail novamente.">
+      </div>
+
+      <div class="mb-4 ask-password">
+        <label for="password" class="mb-2 text-bold form-label">Crie uma senha</label>
+        <input id="password" type="password" class="form-control input-style" placeholder="Crie uma senha.">
+      </div>
+
+      <div class="mb-4 ask-nick left">
+        <label for="nick" class="mb-2 text-bold form-label">Como devemos chamar você?</label>
+        <input id="nick" type="email" class="form-control input-style mb-2" placeholder="Insira um nome de perfil.">
+        <p>Isso será exibido no seu perfil.</p>
+      </div>
+
+      <div class="age mb-4">
+        <label for="birth" class="text-bold form-label">Qual a sua data de nascimento?</label>
+        <div id="birth">
+
+          <div class="left">
+            <label for="birth-day">Dia</label>
+            <input id="birth-day" type="number" placeholder="DD">
+          </div>
+
+          <div class="left">
+            <label for="birth-month">Mês</label>
+            <select name="month" id="birth-month"></select>
+          </div>
+
+          <div class="left">
+            <label for="birth-year">Ano</label>
+            <input type="number" id="birth-year" placeholder="AAAA">
+          </div>
+        </div>
+      </div>
+
+      <div class="left mb-4">
+        <label for="gender" class="text-bold form-label">Qual é o seu gênero?</label>
+        <div id="gender">
+          <input id="radio-masc" name="radio" class="form-check-input" type="radio" value="masculino">
+          <label for="radio-masc" class="form-check-label">Masculino</label>
+
+          <input id="radio-fem" name="radio" class="form-check-input" type="radio" value="feminino">
+          <label for="radio-fem" class="form-check-label">Feminino</label>
+
+          <input id="radio-nb" name="radio" class="form-check-input" type="radio" value="nao-binario">
+          <label for="radio-nb" class="form-check-label">Não binário</label>
+        </div>
+      </div>
+
+      <div id="checkboxes" class="left mb-4">
+        <div class="mb-4">
+          <input id="marketing" type="checkbox">
+          <label for="marketing">Não quero receber mensagens de marketing do Spotify</label>
+        </div>
+
+        <div class="mb-4">
+          <input id="dados" type="checkbox">
+          <label for="dados">Compartilhar meus dados cadastrais com os provedores de conteúdo do Spotify para fins de marketing.</label>
+        </div>
+
+        <div class="mb-4">
+          <input id="termos" type="checkbox">
+          <label for="termos">Eu concordo com os <span class="text-link">Termos e Condições de Uso do Spotify.</span></label>
+        </div>
+      </div>
+
+      <p class="text-small">
+        Para saber mais sobre como o Spotify coleta, utiliza, compartilha e protege seus dados pessoais, leia a <span class="text-link">Política de Privacidade do Spotify.</span></p>
+
+      <div class="center">
+        <button class="btn btn-primary subscribe-btn-bottom mb-4"><strong>Inscrever-se</strong></button>
+      </div>
+
+      <p class="text-small">Já tem uma conta? <span class="text-link">Faça login.</span></p>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>

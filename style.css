@@ -1,3 +1,7 @@
+/*
+* animação nos botões (wide in)
+*/
+
 img {
   margin: 0;
   width: 250px;
@@ -13,11 +17,15 @@ h1 {
   margin: auto;
 }
 
+.container {
+  max-width: 750px;
+}
+
 #subscribe {
   flex-direction: column;
 }
 
-#subscribe-btn {
+.subscribe-btn {
   font-size: 22px;
   border-radius: 500px;
   padding: 15px 50px;
@@ -29,16 +37,88 @@ h1 {
   align-items: center;
 }
 
-p {
+#divider p {
   width: 100%;
   text-align: center;
   border-bottom: 1px solid rgb(204, 204, 204);
   line-height: 0.1em;
 }
 
-p span {
+#divider p span {
   font-size: 22px;
   color: rgb(127, 127, 127);
   background: #fff;
   padding: 0 30px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+}
+
+.text-bold {
+  font-weight: 500;
+}
+
+.input-style {
+  padding: 24px;
+  border: none;
+  box-shadow: inset 0 0 0 1px #868686;
+  font-weight: 400;
+}
+
+.input-style:hover {
+  box-shadow: inset 0 0 0 2px #868686;
+}
+
+.link-primary {
+  color: #117a37;
+}
+
+#birth {
+  display: flex;
+}
+
+#radio-fem,
+#radio-nb {
+  margin-left: 30px;
+}
+
+#gender label {
+  margin-left: 10px;
+}
+
+#checkboxes div {
+  display: flex;
+  align-items: baseline;
+}
+
+#checkboxes input {
+  margin-right: 20px;
+}
+
+.text-small {
+  font-size: 20px;
+  text-align: center;
+}
+
+.text-link {
+  color: rgb(29, 185, 84);
+  text-decoration: underline;
+}
+
+.subscribe-btn-bottom {
+  font-size: 22px;
+  border-radius: 500px;
+  padding: 20px 70px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(30, 215, 96, 1);
+  border: none;
 }
